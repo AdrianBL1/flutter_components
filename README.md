@@ -1,6 +1,7 @@
-# fl_components
+# Flutter Components
 
 A new Flutter project.
+Proyecto de Flutter para el uso y demostración de los Componentes de Flutter.
 
 ## Getting Started
 
