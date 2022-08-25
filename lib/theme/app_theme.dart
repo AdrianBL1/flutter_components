@@ -34,6 +34,7 @@ class AppTheme {
       ),
     ),
 
+    //Inputs
     inputDecorationTheme: const InputDecorationTheme(
       floatingLabelStyle: TextStyle(color: primary),
       enabledBorder: OutlineInputBorder(
