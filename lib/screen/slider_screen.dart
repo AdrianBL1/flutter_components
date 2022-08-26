@@ -60,7 +60,7 @@ class _SliderScreenState extends State<SliderScreen> {
           Expanded(
             child: SingleChildScrollView(
               child: Image(
-                image: const NetworkImage('https://cdn.pixabay.com/photo/2020/07/06/17/51/batman-5377804.png'),
+                image: const NetworkImage('https://static.wikia.nocookie.net/kancolle/images/3/31/174_Basic_Hibiki_CG1.png/revision/latest/scale-to-width-down/300?cb=20141011031400&path-prefix=es'),
                 fit: BoxFit.contain,
                 width: _sliderValue,
               ),

@@ -30,14 +30,14 @@ class CustomInputField extends StatelessWidget {
   Widget build(BuildContext context) {
     return TextFormField(
       autofocus: false,
-      initialValue: 'Adrian BL',
+      initialValue: '',
       textCapitalization: TextCapitalization.words,
       keyboardType: keyboardType,
       obscureText: obscureText,
       onChanged: (value) => formValues[formProperty] = value,
       validator: (value) {
         if (value == null) return 'Este campo es requerido';
-        return value.length <3 ? 'Minimo de 3 letras' : null;
+        return value.length < 3 ? 'Minimo de 3 letras' : null;
       },
       autovalidateMode: AutovalidateMode.onUserInteraction,
       decoration: InputDecoration(

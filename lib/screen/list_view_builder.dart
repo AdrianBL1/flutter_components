@@ -114,7 +114,6 @@ class _LoadingIcon extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: const EdgeInsets.all(10),
-      color: Colors.white,
       height: 60,
       width: 60,
       decoration: BoxDecoration(
