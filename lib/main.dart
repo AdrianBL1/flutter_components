@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 import 'package:fl_components/providers/theme_provider.dart';
 import 'package:fl_components/router/app_routes.dart';
 import 'package:fl_components/shared_preferences/preferences.dart';
-import 'package:provider/provider.dart';
 
 void main() async {
 

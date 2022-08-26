@@ -1,8 +1,9 @@
-import 'package:fl_components/providers/theme_provider.dart';
 import 'package:flutter/material.dart';
-import 'package:fl_components/theme/app_theme.dart';
-import 'package:fl_components/shared_preferences/preferences.dart';
 import 'package:provider/provider.dart';
+
+import 'package:fl_components/providers/theme_provider.dart';
+import 'package:fl_components/shared_preferences/preferences.dart';
+import 'package:fl_components/theme/app_theme.dart';
 
 class ThemeChoiceScreen extends StatefulWidget {
    
