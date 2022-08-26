@@ -62,7 +62,7 @@ class AppTheme {
       centerTitle: true
     ),
 
-    scaffoldBackgroundColor: Colors.black,
+    //scaffoldBackgroundColor: Colors.black,
 
     //TextButton Theme
     textButtonTheme: TextButtonThemeData(
